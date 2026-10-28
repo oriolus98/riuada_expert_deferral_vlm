@@ -1,0 +1,17 @@
+# Packages imported by run_ladder.py and analyze_selective.py.
+#
+# Install a CUDA build of PyTorch first if you will run run_ladder.py on a GPU
+# (pick the index URL that matches your driver, see https://pytorch.org):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements.txt
+#
+# Versions used for the paper:
+
+torch>=2.5.1
+torchvision>=0.20.1
+open_clip_torch>=2.31.0
+numpy>=2.2.3
+scipy>=1.15.2
+scikit-learn>=1.6.1
+matplotlib>=3.10.6
+Pillow>=11.1.0

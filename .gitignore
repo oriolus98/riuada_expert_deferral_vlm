@@ -1,0 +1,33 @@
+# Dataset (download from Zenodo, see README)
+data/
+images/
+crops/
+
+# Experiment outputs: cached features, per-run logits, figures
+results/
+*.pt
+*.npz
+*.pdf
+*.png
+*.json
+
+# Cluster logs
+slurm-*.out
+slurm-*.err
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Notebooks, OS, editors
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
